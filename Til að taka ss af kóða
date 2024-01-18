@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <title>Einfalt HTML dæmi</title>
+    <style>
+        /* Stillir stöðu myndarinnar að relative og 
+        bætir við spássíðu fyrir neða sem er 20 pixla */
+         .project-images .image-container {
+            position: relative;
+            margin-bottom: 20px; /* Stillir spássíu */
+        }
+        .project-images img {
+            max-width: 400px; /* Stillir hámarksbreitt sem 400 pixla */
+            width: 100%; /* Tryggir að myndinn tekur 100% af container breidd */
+        }
+    </style>
+</head>
+<body>
+    <div class="col-lg-2 text-center">
+        <!-- Gerum myndinna hringlaga -->
+        <img src="mynd1.jpg" class="user-image rounded-circle" alt="Mynd1"> 
+    </div>
+    <div class="project-images">
+        <div class="image-container">
+            <img src=" mynd2.png" alt="Mynd2"> <!-- Nær í myndina -->
+            <span class="image-label">Mynd 2</span> <!-- Merkir myndina -->
+        </div>
+    </div>
+</body>
+</html>

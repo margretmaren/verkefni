@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="in">
+  <head>
+    <meta charset="utf-8">
+    <title>Margrét Maren Guðmundsdóttir</title>
+    <meta name="description" content="Engineering student at the University of Iceland with a 
+    passion for collaboration and innovation. Eager to apply academic knowledge and skills in a dynamic 
+    work environment emphasizing teamwork and creativity. Enjoys tackling challenges with a positive mindset.">
+    <meta name="author" content="Margrét Maren Guðmundsdóttir">
+
+    <!-- Mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Minimalist CSS -->
+    <link rel="stylesheet" href="assets/css/minimalist.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+    <!-- Uppsetning Tímalínunar -->
+    <style>
+      /* Timeline text left alignment */
+      .timeline-content .timeline-p {
+        text-align: left !important;
+      }
+    </style>
+    
+    <!-- Uppsetning Verkefni 1 -->
+    <style>
+      .project-layout {
+        display: flex;
+        align-items: center; /* Center items vertically */
+      }
+      .project-text {
+        flex: 1;
+        padding: 0 20px;
+        text-align: left; /* Align text to the left in the left column */
+      }
+      .project-images {
+        flex: 1;
+        text-align: center; /* Align text to the center in the right column */
+      }
+      .project-images .image-container {
+        position: relative;
+        margin-bottom: 20px; /* Add margin between images */
+      }
+      .project-images img {
+        max-width: 400px; /* Set a maximum width as needed */
+        width: 100%;
+      }
+      .image-label {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px;
+        border-radius: 5px;
+      }
+      /* Center the challenge heading */
+      .challenge-heading {
+        text-align: center;
+      }
+      /* Center the challenge text */
+      .challenge-text {
+        text-align: center;
+      }
+      /* Center the solution heading */
+      .solution-heading {
+        text-align: center;
+      }
+      /* Style the section divider */
+      .section-divider {
+        width: 100%;
+        border-top: 2px solid #ccc; /* Adjust the color as needed */
+        margin: 20px 0; /* Adjust the margin as needed */
+      }
+    </style>
+
+    <!-- Uppsetning á fyrsta tabinu -->
+    <style> 
+    /* Style the tab headline */
+    .tab-headline {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+    /* Style the section divider */
+    .section-divider {
+      width: 100%;
+      border-top: 2px solid #ccc; /* Adjust the color as needed */
+      margin: 10px 0 20px; /* Adjust the margin as needed */
+    }
+    /* Style the layout for the remaining page */
+    .other-tab-layout {
+      display: flex;
+      align-items: stretch;
+    }
+    /* Style the left and right columns */
+    .left-column,
+    .right-column {
+      flex: 1;
+      padding: 0 20px;
+    }
+    /* Style the layout for the remaining page */
+    .other-tab-layout {
+      display: flex;
+    }
+    /* Style the left and right columns */
+    .left-column,
+    .right-column {
+      flex: 1;
+      padding: 0 20px;
+    }
+    /* Style the vertical line */
+    .vertical-line {
+      width: 2px;
+      background-color: #ccc; /* Adjust the color as needed */
+      height: 100%;
+      margin: 0 20px;
+    }
+    </style>
+  </head>
+  <body> 
+    <!-- Það sem er á efst/ sést allaf -->
+    <header>
+
+      <div class="container">
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-2 text-center">
+            <img src="profile.jpg.jpg" class="user-image rounded-circle" alt="Margrét Maren Guðmundsdóttir">
+          </div>
+          <div class="col-lg-7">
+            <h2>Margrét Maren Guðmundsdóttir</h2>
+            <p class="text-justify">
+              Ég heiti Margrét Maren Guðmundsdóttir og er á þriðja ári í vélaverkfræði við Háskóla Íslands. 
+              Ég stefni á útskrift í vor og er að leita að vinnu strax eftir að skóla lýkur. 
+              Mig langar að vinna við fagið í 1-2 ár til að finna betur hvar áhugi minn liggur áður en 
+              ég fer í MS í verkfræði. <br>
+              Ég er barnlaus og einhleyp og leigi litla íbúð í Skerjafirðinum. Ég er heilsuhraust og 
+              legg áherslu á heilbrigðan lífsstíl. <br>
+              Ég er mjög spennt að fara á vinnumarkað þar sem nám mitt nýtist. Ég hef gaman af 
+              því að takast á við áskoranir, er hugmyndarík og samviskusöm. Ég er góð í samskiptum 
+              og hefur það nýst mér vel í störfum fyrir Vélina sem er nemendafélag iðnaðar-, véla- 
+              og efnaverkfræðinema. Veturinn 2022-23 var ég ritari fyrir félagið en í vetur 
+              er ég forseti Vélarinnar. Vélin stendur fyrir ýmsum uppákomum og m.a. 
+              skipuleggur hún og heldur utanum Hönnunarkeppni HÍ. 
+            </p>
+            <ul class="list-inline text-lg-right social-icons">
+              <li class="list-inline-item"><a href="https://www.facebook.com/margretmaren/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/maggamaren/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Allir tab-arnir -->
+    <section>
+      <!-- ./content-switch - skylgreina tab-ana -->
+      <div class="d-flex justify-content-center">
+        <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
+          <a class="list-group-item small text-uppercase" id="list-forsida-list" data-toggle="list" href="#ed" role="tab">VÉL608G</a>
+          <a class="list-group-item small text-uppercase active" id="list-experience-list" data-toggle="list" href="#cv" role="tab">Ferilsskrá</a>
+          <a class="list-group-item small text-uppercase" id="list-project1-list" data-toggle="list" href="#project1" role="tab">Verkefni 1</a>
+          <a class="list-group-item small text-uppercase" id="list-project2-list" data-toggle="list" href="#project2" role="tab">Verkefni 2</a>
+          <a class="list-group-item small text-uppercase" id="list-project3-list" data-toggle="list" href="#project3" role="tab">Verkefni 3</a>
+          <a class="list-group-item small text-uppercase" id="list-project4-list" data-toggle="list" href="#project4" role="tab">Lokaverkefni</a>
+        </div>
+      </div>
+      <!-- 6 tabs -->
+      <div class="container pt-5 tab-content">
+        <!-- VÉL608G -->
+        <div class="tab-pane fade show" id="ed" role="tabpanel">
+          <h2 class="challenge-heading">Vefsíða og vinnubók í áfanga í Háskóla Íslands</h2>
+          <hr class="section-divider">
+          <!-- Split the remaining page into two halves -->
+          <div class="other-tab-layout">
+            <!-- Left column -->
+            <div class="left-column">
+              <!-- Texti vinstra meginn -->
+              <h3>Tölvustudd framleiðsla</h3>
+              <p><strong> Áfangalýsing</strong><br>
+                Í námskeiðinu eru kennd undirstöðu atriði stafrænnar framleiðslutækni og tölvustuddrar framleiðslu. 
+                Farið verður yfir:
+                <ol>
+                  <li>Útgáfu stýring og vefsíðugerð fyrir veflægt portfolio og skjölun.</li>
+                  <li>Parametrísk hönnun fyrir geislaskurð og fræsingu.</li>
+                  <li>Þrívíð hönnun fyrir 3D prentun og 3D skönnun.</li>
+                  <li>Hönnun á útsteypi mótum ásamt notkun á viðeigandi efnum.</li>
+                  <li>Hönnun á stærri einingum og fræsing í plötuefni.</li>
+                  <li>Verkefnastjórnun fyrir þróunar- og nýsköpunarverkefni.</li>
+                </ol>
+              </p>
+            </div>
+
+            <!-- Right column -->
+            <div class="right-column">
+              <!-- Texti vinstra meginn -->
+              <h3> - </h3>
+              <P>
+                <strong>Hæfniviðmið</strong><br>
+                <ul>
+                  <li>Hefur getu til að útgáfustýra vefsíðu með Git, þar sem fram kemur vinnuframlag nemandans.</li>
+                  <li>Hefur skýrt vinnuflæði með atriði tengdu stafrænni framleiðslutækni með góðri skrásetningu á vinnu.</li>
+                  <li>Hefur hæfni til að skipuleggja hópavinnu á faglegan máta með verkefnastjórnun.</li>
+                  <li>Hefur skilning á verkefnastjórnun sem lýtur að hönnunar- og þróunar vinnu.</li>
+                  <li>Hefur getu til að vinna með og hanna ýmis viðeigandi stafræn skjöl og framleiðsluferla, tengdum framleiðslubúnaði áfangans.</li>
+                  <ul>
+                    <li>Notkun á kóða til að túlka grafíska hluti með HTML og CSS.</li>
+                    <li>Parametrísk hönnun fyrir geislaskurð. </li>
+                    <li>3D hönnun og vikmörk fyrir 3D prentun.</li>
+                    <li>Undirbúningur á verkfæraslóðum fyrir fræsingu.</li>
+                  </ul>
+                  <li>Hefur skilning á hugverkarétti</li>
+                </ul>
+              </P>
+            </div>
+          </div>
+
+          <!-- Horizontal line -->
+          <hr class="section-divider">
+
+          <!-- Fyrirlýsing - aka. heading -->
+          <h3 class="challenge-heading">Verkefnalýsingar</h3>
+
+          <!-- Horizontal line -->
+          <hr class="section-divider">
+
+          <!-- Verkefni 1 -->
+          <div class="other-tab-layout">
+            <!-- Left column -->
+            <div class="left-column">
+              <!-- Texti vinstra meginn -->
+              <h3>Verkefni 1</h3>
+              <!-- Horizontal line -->
+              <hr class="section-divider">
+
+              <p><strong> Búa til vefsíðu sem hýsir þitt vinnuframlag (portfolio)</strong><br>
+                Veldu og smíðaðu html sniðmát fyrir vefsíðuna þína, skipulegðu hana með upplýsingum um þig og þína ferilskrá.
+                <ol>
+                  <li>Skrásettu ítarlega hvernig þú framkvæmdir fyrsta verkefnið í máli og myndum þar sem eftirtaldið kemur fram:</li>
+                  <ul>
+                    <li>Hvaðan þú sóttir sniðmátið og/eða innblástur, útskýrðu ákvarðanatöku.</li>
+                    <li>Hverjar eru hönnunarforsendur í upphafi, t.d. hvernig hægt er að finna undirsíður, litaval eða annað sem hugsað var út í.</li>
+                    <li>Hvernig var staðið að myndvinnslu fyrir síðu, t.d. hvernig myndir og skjáskot voru smækkaðar og unnar fyrir verkefnið.</li>
+                    <li>Notaðir þú önnur forrit eða fannstu aðrar upplýsingar til að vinna verkefnið? Segðu frá.</li>
+                  </ul>
+                  <li>Segðu frá hvað þú vilt fá út úr áfanganum og veltu fyrir þér hvað þú myndir vilja gera sem lokaverkefni.</li>
+                  <li>Útskýrðu hvernig þú hlóðst upp síðunni á Github, hvort þú notaðir git bash eða aðra aðferð. Segðu frá þeim áskorunum sem þurfti að takast á við og hvernig var leyst úr þeim. Settu hlekk inná github repositoryið inná vefsíðuna sjálfa.</li>
+                </ol>
+              </p>
+            </div>
+            <!-- Right column -->
+            <div class="right-column">
+              <!-- Myndir vinstra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="html.jpg" alt="Html">
+                </div>
+                <div class="image-container">
+                  <img src="coding.jpg" alt="Coding">
+                </div>
+                <!-- Add more images as needed -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal line -->
+          <hr class="section-divider">
+
+          <!-- Verkefni 2 -->
+          <div class="other-tab-layout">
+            <!-- Left column -->
+            <div class="left-column">
+              <!-- Myndir vinstra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="project.png" alt="project">
+                </div>
+                <div class="image-container">
+                  <img src="2.jpg" alt="nr.2">
+                </div>
+                <!-- Add more images as needed -->
+              </div>
+            </div>
+            <!-- Right column -->
+            <div class="right-column">
+              <!-- Texti vinstra meginn -->
+              <h3>Verkefni 2</h3>
+              <!-- Horizontal line -->
+              <hr class="section-divider">
+              <p><strong>Þetta snýst um stuff</strong><br>
+                eitthvaðeitthvað
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <!-- Ferilssrká/Tímalínan -->
+        <div class="tab-pane fade show active" id="cv" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline-byrjar -->
+              <div class="timeline-container">
+                <!-- Menntun -->
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Menntun</h3>
+                    <span class="timeline-span">Vélaverkfræðinemi</span>
+                    <p class="text-muted small mb-3">Stúdentspróf</p>
+                    <p class="timeline-p text-justify">
+                      <strong> 2021-núverandi: Háskóli Íslands</strong><br>
+                      BS gráða í Vélaverkfræði. <br>
+                      Áætluð útskrift á vorönn 2024<br>
+                      <strong> 2019: Idrætshøjskolen i Sønderborg</strong><br>
+                      Tvær annir í íþróttalýðháskóla í Danmörku<br>
+                      <strong> 2015-2018: Kvennaskólinn í Reykjavík</strong><br>
+                      Stúdentspróf af náttúrufræðibraut
+                    </p>
+                  </div>
+                </div>
+                <!-- Starfsferill -->
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Starfsferill</h3>
+                    <span class="timeline-span">Iðnaðarvinna</span>
+                    <p class="text-muted small mb-3">Umönnun</p>
+                    <p class="timeline-p text-justify">
+                      <strong> 2021-2023: Rio Tinto á Íslandi hf.</strong><br>
+                      Starfsmaður í skautsmiðju<br>
+                      Sumarstarf og hlutastarf með skóla<br>
+                      <strong> 2020-2020: Børnehuset Solvognen</strong><br>
+                      Umönnun barna á leikskóla í Danmörku<br>
+                      Almennur starfsmaður<br>
+                      <strong> 2018-2019: Hrafnista</strong><br>
+                      Umönnun aldraða<br>
+                      Sumarstarf 2019<br>
+                      Almennur starfsmaður 2018<br>
+                      <strong> 2015-2017: Vogue</strong><br>
+                      Sumarstarf og hlutastarf með skóla<br>
+                      Saumakona, lagerstarfsmaður + allskonar verkefni sem komu upp
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+                <!-- Verkefni/námskeið -->
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Verkefni/námskeið</h3>
+                    <span class="timeline-span">Stjórn nemendafélags</span>
+                    <p class="text-muted small mb-3">Verklegt nám</p>
+                    <p class="timeline-p text-justify">
+                      <strong> Nemendafélag</strong><br>
+                      Skólaárin 2022-2024 sat ég í stjórn nemendafélagsins Vélarinnar sem er 
+                      nemendafélag iðnaðar-, véla- og efnaverkfræðinema. Fyrra skólaárið gegndi ég 
+                      því embætti að vera ritari og því seinna var ég forseti nemendafélagsins.<br>
+                      Meðal þeirra verkefna sem ég stóð fyrir undir stjórn nemendafélagsins eru m.a. 
+                      Hönnurnarkeppninn, skíðaferð og margt annað tengt félagslífi háskólanemda.<br>
+                      <strong> Team Spark</strong><br>
+                      Team Spark er valáfangi í Háskóla Íslands þar sem við erum að búa til rafmagns 
+                      kappakstursbíl sem við förum svo út með á og keppnir sem kallast formula student. <br>
+                      Ég var þrjár annir í Team Spark.<br>
+                      <strong> Leiðtoganámskeið</strong><br>
+                      Seinni önnina í lýðháskólanum tók ég áfanga sem kennt var hvernig einstaklingur á 
+                      að vera leiðtogi eða verkefnastjóri. Ég planaði og sá um allskonar verkefni sem komu 
+                      upp fyrir nýja nemendur lýðháskólann ásamt því að plana viðburði fyrir hópa eða 
+                      einstaklinga sem komu og heimsóttu lýðháskólann á meðan skólagöngu minni stóð.
+                    </p>
+                  </div>
+                </div>
+                <!-- Önnur kunnátta -->
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Önnur kunnátta</h3>
+                    <span class="timeline-span">Tala mörg tungumál</span>
+                    <p class="text-muted small mb-3">Mikil þekking á tölvur</p>
+                    <p class="timeline-p text-justify">
+                      <strong> Tungumál</strong><br>
+                      Sérstaklega góð Íslenskukunnátta. Mjög góð enskukunnátta. Góð dönsku kunnátta 
+                      og fín þýsku kunnátta.<br>
+                      <strong> Tölvukunnátta</strong><br>
+                      Tölvustudd hönnun (CAD) og simulation <br>
+                      - Autodesk Inventor
+                      - Autodesk Fusion 360 <br>
+                      - Solidworks <br>
+                      - ANSYS <br>
+                      Skrifstofuverkfæri <br>
+                      - Helstu forrit Microsoft Office (Word, Excel, PowerPoint o.fl.) <br>
+                      - LaTeX <br>
+                      Forritunarmál og tölulegir útreikningar <br>
+                      - Python <br>
+                      - MATLAB <br>
+                      <strong> Ökuréttindi</strong><br>
+                      Alemenn ökuréttindi (B réttindi) <br>
+                      <strong> Vinnuvélaréttindi</strong><br>
+                      - C flokkur (hafnarkranar og brúkranar) <br>
+                      - I flokkur (dráttarvélar og minni gerðir jarðvinnuvélar ≤ 4 t) <br>
+                      - J flokkur (lyftarar,  lyftigeta ≤ 10 t) 
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+                <!-- Áhugamál -->
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Áhugamál</h3>
+                    <span class="timeline-span">Íþróttir</span>
+                    <p class="text-muted small mb-3">Föndur og lestur</p>
+                    <p class="timeline-p text-justify">
+                      Allt mitt líf hef ég verið mikið í allskyns íþróttum. Í dag stunda ég hefbundið blak á veturnar og standblak á sumrin. Ég var í öðru sæti á Íslandsmeistaramótinu í strandblaki tvö síðustu sumur. <br>
+                      Fyrir utan íþróttir hef ég gaman að því að föndra og skapa hluti auk þess að lesa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- ./timeline-endar -->
+            </div>
+          </div>
+        </div>
+        <!-- Verkefni 1 -->
+        <div class="tab-pane fade show" id="project1" role="tabpanel">
+          <div class="project-details">
+            <div class="project-point">
+              <!-- Útskýring á verkefninu -->
+              <h3 class="challenge-heading">Að búa til vefsíðu og notkun á git</h3>
+              <div class="challenge-text">
+                <P>
+                  Ég er spennt að kynna fyrir ykkur fyrsta verkefnið mitt í Tölvustuddri framleiðslu 
+                  - grípandi vefsíða sem þjónar sem miðstöð fyrir alla námskeiðsvinnuna mína. 
+                  Þetta verkefni gerir mér kleift að kafa inn í heim forritunar á skemmtilegan og jákvæðan hátt.
+                  Ég hlakka til að halda áfram að vinna í þessarai vefsíðu og læra þar með á góðan og skemmtilegan hátt
+                  betur á forritun og forritunar tungumál.
+                </P>
+              </div>
+            </div>
+            
+            <!-- Horizontal line -->
+            <hr class="section-divider">
+            
+            <!-- Liður 1) Framkvæmd verkefnisins -->
+            <!-- Að velja template - Tvískiptur skjár -->
+            <div class="project-layout">
+              <!-- Að velja template - Texti vinstra meginn -->
+              <div class="project-text">
+                <h3 class="solution-heading">Framkvæmd verkefnisins</h3>
+                <!-- Horizontal line -->
+                <hr class="section-divider">
+                <p>
+                  <h4>Að velja template</h4>
+                  Fyrst byrjaði ég á því að stofna aðgang á Github, síðan kom að því stóra verkefni að finna hið
+                  fullkomna template fyrir vefsíðuna mína sem ég gæti breytt og beturbætt að mínum þörfum.
+                  Eftir að hafa skoðað allt of margar hugmyndir af vefsíðum komst ég 
+                  að þeirri niðurstöðu að ég vildi hafa mína síðu í frekar minimalist-um stíl. Ég tók eftir því að 
+                  þegar vefsíðurnar voru of lítríkar, með miklum myndum og tæknilegum brellum dróg það frá
+                  því innihaldi sem var á vefsíðunni. 
+
+                </p>
+              </div>
+              <!-- Að velja template - Myndir hægra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="MvsM.png" alt="MvsM">
+                </div>
+              </div>
+            </div>
+
+            <!-- Uppsettning HTML -->
+            <div class="other-tab-layout">
+              <!-- Uppsettning HTML - vinstri hlið -->
+              <div class="left-column">
+                <!-- Myndir vinstra meginn -->
+                <div class="project-images">
+                  <div class="image-container">
+                    <img src="CSS.png" alt="CSS">
+                    <span class="image-label">CSS</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="Body.png" alt="Body">
+                    <span class="image-label">Body</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="HTML-and-CSS.png" alt="HTMLandCSS">
+                  </div>
+                </div>
+              </div>
+              <!-- Uppsettning HTML - hægri hlið -->
+              <div class="right-column">
+                <!-- Texti hægra meginn -->
+                <h4>Uppsetning HTML síðu</h4>
+                <p>
+                  Á vinstri hönd er hægt að sjá stuttan HTML kóða sem ég bjó til sem dæmi svo hægt sé að skoða
+                  betur hvað hver liður fyrir sig gerir.
+                  <ol>
+                    <strong><li>DOCTYPE og HTML merki (e. tags)</li></strong>
+                    DOCTYPE yfirlýsingin skilgreinir skjalagerð og útgáfu HTML. Það hjálpar vöfrum að túlka HTML 
+                    kóðan minn rétt.<br>
+                    HTML merki er rótarþáttur HTML skjals, allir aðrir þættir eru inni í því. <br>
+                    Skoðum sýningarkóðan:<br>
+                    <ul>
+                      <li><code>&lt;!DOCTYPE html&gt;</code>: Skilgreinir HTML5 sem gerðs skjalsins.</li>
+                      <li><code>&lt;html lang="is"&gt;</code>: Skilgreinir rótarþátt (e. root element) HTML skjalsins og 
+                        skilgreinir tungmál skjalsins (Íslenska). </li>
+                    </ul>
+
+                    <strong><li>Höfuðhluti (e. Head Section)</li></strong>
+                    <ul>
+                      <li><code>&lt;head&gt;</code>: Inniheldur meta-upplýsingar um HTML skjalið, eins og titil.</li>
+                      <li><code>&lt;meta charset="UTF-8"&gt;</code>: Stillir kóðun stafa á UTF-8 fyrir rétta 
+                        birtingu stafa.</li>
+                      <li><code>&lt;title&gt;Einfalt HTML dæmi&lt;/title&gt;</code>: Setur titil HTML skjalsins.</li>
+                      <li><code>&lt;style&gt;</code>: Byrjar "stílablokkina" sem CSS fer í.</li>
+                    </ul>
+
+                    <strong><li>CSS</li></strong>
+                    <ul>
+                      <li><code>&lt;style&gt;</code>: Notað til að skilgreina innri CSS stíla fyrir skjalið, 
+                        stjórnað útili á síðunni.</li>
+                      <li><code>.tab-headline</code>: Stillir fyrirsögnina fyrir miðju, leturstærð 24 pixlar og top 
+                        spássían 20 pixlar.</li>
+                      <li><code>.split-screen-layout</code>: Skilgreinir möguleikan á því að búa til skipulag með 
+                        tvískiptum skjá.</li>
+                      <li><code>.left-column</code> og <code>.right-column</code>: Skilgreinir vinsti og hægri dálk 
+                        tvískipta skjásins. Þeir hafa báðir jafnan sveiganleika (flex:1) til að deila lausu 
+                        plássinu og fylling er 20 pixels.</li>
+                    </ul>
+
+                    <strong><li>Body hluti</li></strong>
+                    Innihelur raunverulegt innihald HTML skjalsins, eins og texta og myndir.
+                    <ul>
+                      <li><code>&lt;h1 class="tab-headline"&gt;Einfalt HTML dæmi&lt;/h1&gt;</code>: 
+                        Notar fyrirsögnina.</li>
+                      <li><code>div class="split-screen-layout"</code>: tvískiptir síðunni.</li>
+                      <li><code>div class="left-column"</code> og <code>div class="right-column"</code>: 
+                        Táknar vinstri og hægri hluta í tvískipta skjánum.</li>
+                    </ul>
+                  </ol>
+                </p>
+              </div>
+            </div>
+
+            <!-- Hönnunarforsendur - Tvískiptur skjár -->
+            <div class="other-tab-layout">
+              <!-- Hönnunarforsendur - Texti vinstra meginn -->
+              <div class="right-column">
+                <p>
+                  <h4>Hönnunarforsendur</h4>  
+                  <h5>Flipar (e. tabs)</h5>
+                  Helstu forsendur mínar voru því að hafa síðuna mína ekki of upptekna, þar að segja frekar í 
+                  einfaldari kanntinum. Til að enfalda mína síðu áhvað ég að vera með flipa á síðunni sem hægt er að 
+                  ýta á og þeir opna það verkefni eða þær upplýsingar sem manneksja er að leita að í hvert skipti.
+                  Það voru margar vefsíður sem ég skoðaði sem voru með einhverskonar einna blaðsíðu format en í þeim síðum 
+                  fannst mér ég "týnsast" frekar auðveldlega og villast í upplýsingunum. Á mynd hér við hægri hönd má
+                  sjá hvernig ég skipulagði mína flipa og hvernig kóðinn fyrir þá er. Til að auðvelda mér
+                  vinnuna í framtíðinni og til að sjá hvernig síðan myndi líta út, gerði ég flipa fyrir öll 
+                  verkefnin en það er auðvelt að breyta og beturbæta í framtíðinni. Í kóðanum sést líka hvaða 
+                  flipi er "aðal", þar að segja hvaða flipi er opinn þegar vefsíðan er fyrst opinn 
+                  (active skipuninn í línu 6 í kóðanum). Þar sem ég þessi síða er um sjálfan mig og mín verkefni 
+                  áhvað ég að þegar fyrst er opnað síðuna er flipin sem er sjálkrafa opinn ferilsskráin mín.
+                  <br><br>
+                  <h5>Innihald og uppsetning filpa</h5>
+                  Ég var nú komin með sex flipa. Fyrsti flipin er ætlaður áfangaum (VÉL608G). Þar tala ég aðeins um áfangan og 
+                  svo eru verkefnalýsingarnar sem ég mun uppfæra með hverju verkefni sem er sett fyrir. Ég vildi hafa
+                  uppsetninguna frekar auðvelda og skilríka. Ég byrjaði á fyrirsögn og svo setti ég línu þvert yfir
+                  blaðsíðuna til að brjóta hana aðeins niður og er því aðeins þægilegri að lesa. Á mynd hér við 
+                  hliðinna á er hægt að sjá kóðan fyrir þverlínun og hvernig ég kalla á hana.
+                  Næst tvískipti ég blaðsíðunni eins og var í sýningarkóðanum.<br>
+
+                  Næsti flipi vildi ég hafa fyrir ferilsskránna mína. Template-ið sem ég valdi var nú þegar með 
+                  tímalínu format sem mér fannst skemmtilegt og fallegt. Ég vildi endilega nýta það format 
+                  svo ég setti upp ferilsskránna mína í það. Þar sem þessi síða verður á netinu og hver sem er 
+                  getur séð hana áhvað ég að sleppa því að hafa of miklar persónulegar upplýsingar um mig 
+                  og mína meðmælendur, svo þetta er ekki fullkláruð ferilskrá.  <br>
+
+                  Næstu fjórir flipar eru tileinkaðir verkefnana sem við munum leysa í áfanganum. <br>
+                  Flipinn fyrir verkefni 1 setti ég upp svipað og flipinn fyrir áfangan. Þar að segja notaði
+                  þverlínurnar og tvískipti skjánum.
+                  <br><br>
+                  <h5>Litaval</h5>
+                  Tamplate-ið sem ég valdi var ekki í lit svo ef mig langði að hafa lit þurfi ég að finna
+                  út úr því hvernig ég geri það. Hvernig staðan er núna langaði mig að hafa textan sjálfan
+                  svart-hvítan en myndir og línur í lit (fyrir utan forsíðu myndina). Skoðum aðeins láréttu 
+                  línuna. Á mynd hér til hægri er hægt að sjá hvernig er auðvelda hægt að breyta um lit á henni,
+                  hvort sé með því að finna lit eða slá in númer litar. Það er einnig hægt að stilla styr litar,
+                  þar að segja það er hægt að stilla hversu "gegnsæ" línan er.
+                  <br><br>
+                  <h5>Textinn</h5>
+                  Það eru til margar skipanir og leiðir til að setja upp texta. Þær sem ég notaði er hægt að 
+                  sjá hér á mynd sem er með nafið skipanir fyrir texta.
+                </p>
+              </div>
+              <!-- Hönnunarforsendur - Myndir hægra meginn -->
+              <div class="left-column">
+                <div class="project-images">
+                  <div class="image-container">
+                    <img src="Gluggar.png" alt="Gluggar">
+                    <span class="image-label">Fipar síðunnar</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="tabs.png" alt="tabs">
+                    <span class="image-label">Kóði fyrir flipa</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="LL.png" alt="lárréttlína">
+                    <span class="image-label">Lárétt lína</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="litur.png" alt="litur">
+                    <span class="image-label">Dæmi um hvernig er hægt að breyta lit á línu</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="textiCSS.png" alt="TextiCSS">
+                    <span class="image-label">CSS fyrir texta</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="textiBody.png" alt="TextiBody">
+                    <span class="image-label">Skipanir fyrir texta</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Myndavinnsla -->
+            <div class="other-tab-layout">
+              <!-- Myndavinnsla - vinstra meginn-->
+              <div class="left-column">
+                <!-- Myndir vinstra meginn -->
+                <div class="project-images">
+                  <div class="image-container">
+                    <img src="myndirCSS.png" alt="MyndirCSS">
+                    <span class="image-label">CSS fyrir myndir</span>
+                  </div>
+                  <div class="image-container">
+                    <img src="myndirBody.png" alt="MyndirBody">
+                    <span class="image-label">Body fyrir myndir</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Myndavinnsla - hægra meginn -->
+              <div class="right-column">
+                <!-- Texti vinstra meginn -->
+                <p>
+                  <h4>Myndavinnsla</h4>
+                  Á myndunum hér við hliðinna á er hægt að sjá stuttan kóða fyrir myndir. Ég notaði aðeins
+                  þessa kóða. Var með eina hringlaga mynd og svo voru allar hinar myndirnar settar inn
+                  með hinni skipuninni, sumar án þess að hafa merkinguna.<br>
+                  <br>
+                  Förum aðeins dýpra í kóðan og skilgreinum hvað ennþá betur hvað skipanirnar gera:
+                  <ul>
+                    <li><code>src</code>: Tilgreinir slóðina eða URL að myndinni</li>
+                    <li><code>alt</code>: Ef myndinn birtist ekki kemur þessi texti. Þett er líka gagnlegt fyrir aðgengi.</li>
+                    <li><code>rounded-circle</code>: Býr til hringlaga klippigrímu(e. clipping mask) sem verður að því að myndinn birtist hringlaga.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+
+            <div class="project-layout">
+              <!-- Upplýsinga vinnsla - Texti vinstra meginn -->
+              <div class="project-text">
+                <p>
+                  <h4>Upplýsinga vinnsla</h4>
+                  Fyrst og fremst fór ég yfir verkefnið og skoðaði hjálpar gögnin sem voru þar inni. Svo skoðaði
+                  ég verkefni fyrverandi nemenda og tók innblástur frá þeim um hvað mig langaði að hafa á 
+                  minni vefsíða. <br>
+
+                  Til að læra að breyta template-inu fyrir vefsíðuna sem ég valdi í þá fullkomnu vefsíðu handa mér 
+                  var Youtube frábær kennari. Google var alltaf mér til staðar 
+                  og svo var ChatGPT frábær hjálp. Chat hjálpaði mér með því að svara heimskulegu spurningunum 
+                  mínum og hjálpa mér að finna hvað ég var að gera vitlaust í kóðanum mínum þegar kóðinn var ekki 
+                  að virka eins og ég vildi að hann væri að virka.<br>
+                  Auðvitað notaði ég mér svo námsefnið og skoðaði vefsíður sem fyrverandi nemendur b
+
+
+                </p>
+              </div>
+              <!-- Upplýsinga vinnsla - Myndir hægra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="GvsChat.jpg" alt="GooglevsChat">
+                </div>
+              </div>
+            </div>
+
+            <!-- Horizontal line -->
+            <hr class="section-divider">
+
+            <!-- Liður 2) Framhald síðunnar og fleira -->
+            <p>
+              <h3>Hvað vildi ég fá úr áfanganum og er ég með hugmynd fyrir lokaverkefnið</h3>
+              Eftir að hafa verið á fullu að kóða þessa síðu og haft virkilega gaman af því væri ég 
+              til í að vera betri í forritun. Þannig ég væri til í að vera dugleg að leggja mig framm í 
+              að læra forritunina betur. Ég veit að í næsta verkefni erum við að hanna hlut og skera svo hlutinn út,
+              það hjólmar líka rosalega vel. Ég er bara mjög spennt að fá að hleypa skapandi hliðinni minni út.
+              Gaman að geta notað skapandi hlið mína sem drífandi þátt í að læra hluti eins og að kóða sem 
+              mér hefur fundist mjög leiðinlegt hingjað til.<br>
+              Ég er ekki með einhverja sérstaka hugmynd fyrir lokaverkefnið. Veit að mig langar að gera eitthvað
+              sem hægt er að nota, eitthvað sem sniðugt og fallegt. Eitthvað sem tengir við allt efnið saman sem 
+              við fórum yfir í áfangaum. Ég vona að ég detti inn á eina frábæra hugmynd og hún verður eins 
+              skemmtileg og spennandi eins og ég er að vona.
+            </p>
+
+            <!-- Horizontal line -->
+            <hr class="section-divider">
+
+            <!-- Liður 3) Upload á Github -->
+            <p>
+              <h3>Vefsíðan á Github</h3>
+              Hvernig ég setti hana á netið???
+            </p>
+
+          </div>
+        </div>
+        <!-- Verkefni 2 -->
+        <div class="tab-pane fade show" id="project2" role="tabpanel">
+          <div class="project-details">
+            <div class="project-point">
+              <h3 class="challenge-heading">Verkefni 2</h3>
+              <div class="challenge-text">
+                <p>Hanna eitthvað mega sniðugt og svo sko skera það út! omg spennandi</p>
+              </div>
+            </div>
+            
+            <!-- Horizontal line between Challenge and Solution -->
+            <hr class="section-divider">
+            
+            <!-- Tvískipti skjánum -->
+            <div class="project-layout">
+              <!-- Texti vinstra meginn -->
+              <div class="project-text">
+                <h3 class="solution-heading">Framkvæmd</h3>
+                <p>Ég er með margar sniðugar hugmyndir fyrir þetta! Veit að fólk getur ekki beðið eftir því 
+                  hvað Margrét Maren Guðmundsdóttir mun koma upp með!
+                </p>
+              </div>
+              
+              <!-- Myndir hægra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="CS.jpg" alt="Image 1">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Verkefni 3 -->
+        <div class="tab-pane fade show" id="project3" role="tabpanel">
+          <h2 class="tab-headline">Verkefni 3</h2>
+          <hr class="section-divider">
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <p>
+                Omg um hvað mun verkefnið snúast??
+              </p>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <p>
+                Get ekki beðið eftir því!
+              </p>
+            </div>
+          </div>
+<!--  -->
+
+          <hr class="section-divider">
+          <div class="project-images">
+            <div class="image-container">
+              <img src="E.jpg" alt="Spenningur">
+            </div>
+          </div>
+
+        </div>
+       <!-- Lokaverkefni -->
+       <div class="tab-pane fade show" id="project4" role="tabpanel">
+         <div class="row justify-content-lg-center">
+           <div class="col-lg">
+             <!-- Lokaverkefnið -->
+             <h2>Lokaverkefnið</h2>
+
+             <h3>*insert ein frábær hugmynd*</h3>
+             <p>
+                Hér mun koma eitt æðislegt lokaverkefni sem mun vera svo gott!
+             </p>
+             <div class="project-images">
+              <div class="image-container">
+                <img src="FP.png" alt="Image 1">
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Litla stöffuð neðst (footer) -->
+    <footer>
+      <div class="container text-center">
+        <p class="small">
+          <a href="https://www.facebook.com/margretmaren/" target="_blank">Margrét</a> gert með 🖤 og <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

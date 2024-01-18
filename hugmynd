@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <title>Einfalt HTML dæmi</title>
+    <style>
+        /* Síllinn á fyrirsögninni á flipa */
+        .tab-headline {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px; /* Stærð spássíunar */
+        }
+
+        /* Útlitið fyrir tvískipta skjáinn */
+        .split-screen-layout {
+            display: flex;
+        }
+
+        /* Stíll vinstri og hægri dálkana */
+        .left-column,
+        .right-column {
+            flex: 1;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dæmi um innihald -->
+    <h1 class="tab-headline">Einfalt HTML dæmi</h1>
+
+    <!-- Tvískipta blaðsíðan -->
+    <div class="split-screen-layout">
+        <div class="left-column">
+            <p>Innihald vinstri dálks.</p>
+        </div>
+        <div class="right-column">
+            <p>Innihald hægri dálks.</p>
+        </div>
+    </div>
+</body>
+</html>
