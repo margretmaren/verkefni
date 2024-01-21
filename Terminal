@@ -1,0 +1,34 @@
+# Leið (e. path) að skránni minni
+cd "C:\Users\margr\OneDrive\Skjöl\Tölvuvædd hönnun\minimalist-main"
+# Eftir að breyta nafni
+cd "C:\Users\margr\OneDrive\Skjöl\Tölvustudd framleiðsla\minimalist-main"
+
+# Set GitHub auðkenni mitt
+git config --global user.email "margretmaren@gmail.com"
+git config --global user.name "margretmaren"
+
+# Initialize Git geymsluna
+git init
+
+# Bæti við öllum skrám í sviðssvæði (e. staging area)
+git add .
+
+# Skuldbinda (e.commit) breytingarnar
+git commit -m "Initial commit"
+
+# Add a remote named 'origin' pointing to your GitHub repository
+git remote add origin https://github.com/margretmaren/verkefni.git
+
+# Push the changes to the 'main' branch on GitHub
+git push -u origin main
+
+
+
+# Svo til að update skjalið ef ég gerði breytingar í Visual Studio Code
+
+# Stage and commit my changes:
+git add .
+git commit -m "Description of your changes"
+
+# Push your changes to GitHub:
+git push origin main
