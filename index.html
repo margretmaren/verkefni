@@ -84,6 +84,7 @@
         border-top: 2px solid #ccc; /* Adjust the color as needed */
         margin: 20px 0; /* Adjust the margin as needed */
       }
+      
     </style>
 
     <!-- Uppsetning á fyrsta tabinu -->
@@ -129,31 +130,170 @@
       margin: 0 20px;
     }
     </style>
+
+    <!-- Table i verkefni 2 -->
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 13px; /* Change the font size here */
+      }
+      th, td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #ffe8e6; /* paler */
+      }
+      th.section-header {
+        background-color: #ffdcd7; /* pale */
+      }
+      tr:nth-child(even) {
+        background-color: #fff5f4; /* light gray - #f2f2f2*/
+      }
+      tr:nth-child(odd) {
+        background-color: #ffffff; /* white */
+      }
+      tr.sum-row {
+        background-color: #dde7ff; /* light blue for sum row */
+        font-weight: bold; /* make sum row text bold */
+      }
+      tr.total-row {
+      background-color: #ebdbff; /* not as light blue for total row */
+      font-weight: bold; /* make total row text bold */
+      }
+    </style>
+
+    <!-- Table i verkefni 2 -->
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      .image-container {
+        display: flex; /* Use flexbox to align images */
+      }
+    </style>
+
+    <!-- myndir verkefni 2 -->
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      .image-container {
+        display: flex; /* Use flexbox to align images */
+      }
+    </style>
+
+    <!-- Setja myndina í miðjuna (mynd um plokk vínylskurður) -->
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      .image-container {
+        display: flex; /* Use flexbox to align images */
+      }
+      .centered-image {
+        margin: auto; /* Auto margin to center the image */
+      }
+      img {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: auto; /* Maintain aspect ratio */
+      }
+    </style>
+    <style>
+      .centered-image-container {
+        display: flex;
+        justify-content: center; /* Center items horizontally */
+      }
+    </style>
+    
+    <!--/* Images Side by Side */-->
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+      }
+      .image-container {
+        display: flex; /* Use flexbox to align images */
+        justify-content: center; /* Center items horizontally */
+      }
+      img {
+        max-width: 100%; /* Ensure images don't exceed container width */
+        height: 100%; /* Maintain aspect ratio */
+      }
+    </style>
+    <style>
+      .image-container .spaced-image {
+        margin-right: 20px; /* Adjust the margin as needed */
+      }
+    </style>
+    
+    <style>
+      .custom-image-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .custom-image-container img:last-child {
+        margin: 0 auto; /* Center the last image horizontally */
+      }
+    </style>
+    <style>
+    .custom-list {
+      list-style-type: none; /* Remove default bullet */
+      padding-left: 0; /* Remove default padding */
+    }
+
+    .custom-list li {
+      margin-left: 1em; /* Adjust the space between the bullet and the text */
+    }
+    </style>
+    <style>
+      .custom-custom-image-container {
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      .custom-custom-image-container img {
+        margin: 0 20px; /* Add margin between images */
+      }
+    </style>
+    <style>
+      .custom-custom-mini-image-container {
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      .custom-custom-mini-image-container img {
+        margin: 0 10px; /* Add margin between images */
+      }
+    </style>
+    
+  
   </head>
   <body> 
     <!-- Það sem er á efst/ sést allaf -->
     <header>
 
       <div class="container">
-        <div class="row justify-content-lg-center">
-          <div class="col-lg-2 text-center">
-            <img src="profile.jpg.jpg" class="user-image rounded-circle" alt="Margrét Maren Guðmundsdóttir">
-          </div>
-          <div class="col-lg-7">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 text-center"> <!-- Adjusted col-lg-3 for a wider column -->
+              <img src="profile.jpg.jpg" class="user-image rounded-circle" alt="Margrét Maren Guðmundsdóttir">
+            </div>
+            <div class="col-lg-7">
             <h2>Margrét Maren Guðmundsdóttir</h2>
             <p class="text-justify">
-              Ég heiti Margrét Maren Guðmundsdóttir og er á þriðja ári í vélaverkfræði við Háskóla Íslands. 
-              Ég stefni á útskrift í vor og er að leita að vinnu strax eftir að skóla lýkur. 
-              Mig langar að vinna við fagið í 1-2 ár til að finna betur hvar áhugi minn liggur áður en 
-              ég fer í MS í verkfræði. <br>
-              Ég er barnlaus og einhleyp og leigi litla íbúð í Skerjafirðinum. Ég er heilsuhraust og 
-              legg áherslu á heilbrigðan lífsstíl. <br>
-              Ég er mjög spennt að fara á vinnumarkað þar sem nám mitt nýtist. Ég hef gaman af 
-              því að takast á við áskoranir, er hugmyndarík og samviskusöm. Ég er góð í samskiptum 
-              og hefur það nýst mér vel í störfum fyrir Vélina sem er nemendafélag iðnaðar-, véla- 
-              og efnaverkfræðinema. Veturinn 2022-23 var ég ritari fyrir félagið en í vetur 
-              er ég forseti Vélarinnar. Vélin stendur fyrir ýmsum uppákomum og m.a. 
-              skipuleggur hún og heldur utanum Hönnunarkeppni HÍ. 
+              Ég heiti Margrét Maren Guðmundsdóttir og er á þriðja ári í vélaverkfræði við Háskóla Íslands.<br>
+              Ég er barnlaus og einhleyp og leigi litla íbúð í Skerjafirðinum. Ég er heilsuhraust og legg 
+              áherslu á heilbrigðan lífsstíl. <br>
+              Ég er mjög spennt að fara á vinnumarkað þar sem nám mitt
+              nýtist. Ég hef gaman af því að takast á við áskoranir, er hugmyndarík og samviskusöm.
             </p>
             <ul class="list-inline text-lg-right social-icons">
               <li class="list-inline-item"><a href="https://www.facebook.com/margretmaren/" target="_blank"><i class="fab fa-facebook"></i></a></li>
@@ -163,6 +303,8 @@
         </div>
       </div>
     </header>
+    
+    
     <!-- Allir tab-arnir -->
     <section>
       <!-- ./content-switch - skylgreina tab-ana -->
@@ -284,10 +426,13 @@
               <!-- Myndir vinstra meginn -->
               <div class="project-images">
                 <div class="image-container">
-                  <img src="project.png" alt="project">
+                  <img src="Vcut.jpg" alt="project">
                 </div>
                 <div class="image-container">
-                  <img src="2.jpg" alt="nr.2">
+                  <img src="Lcut.jpg" alt="nr.2">
+                </div>
+                <div class="image-container">
+                  <img src="Lcut2.jpg" alt="nr.2">
                 </div>
                 <!-- Add more images as needed -->
               </div>
@@ -298,11 +443,88 @@
               <h3>Verkefni 2</h3>
               <!-- Horizontal line -->
               <hr class="section-divider">
-              <p><strong>Þetta snýst um stuff</strong><br>
-                eitthvaðeitthvað
+              <p><strong>Tölvustuddur skurður</strong><br>
+                <br>
+                <em>Einstaklingsverkefni:</em>
+                <ol>
+                  <li>Notaðu vínylskerann til að búa til eitthvað. 100x50cm skurðarflötur max.</li>
+                  <li>Hannaðu parametrískt, geirneglt (pressfit) módel af byggingareiningum.</li>
+                </ol>
+                Módelið þarf að vera skalanlegt á mismunandi máta (efnisþykkt, hæðir og breiddir sem nemandi velur), 
+                útfært með góðum parametríum í hugbúnaði að eigin vali. Mælt er með Autodesk Fusion 360 ef nemandi 
+                vill fá aðstoð kennara, en hafi nemandi tök á því að nota annan CAD hugbúnað þá er það í góðu lagi.<br>
+                <br>
+                Hönnunin þarf að innihalda amk 3 geirnegldar festi punkta. Auka stig fyrir mismunandi gerðir af festingum. <br>
+                <br>
+                Hægt er að velja um mismunandi gerðir af efni fyrir geislaskerann:
+                <ul>
+                  <li>~4mmx500mmx500mm birkikrossviður</li>
+                  <li>~3mmx500mmx500mm akríl (Glært, svart eða hvítt)</li>
+                </ul>
+                Mögulega fleiri þykktir, tilkynnt síðar. Athugið að þykktina þarf að mæla og staðfesta fyrir 
+                nákvæmni. <br>
+                <br>
+                Skerðu út módelið og skjalfestu á heimasíðunni þinni. Settu hönnunarskjöl inn á gagnabanka og 
+                settu hlekk inná síðuna þína.<br>
+                <br>
+                <em>Hópaverkefni:</em> <br>
+                <br>
+                Veljið geislaskera og ákvarðið með prófunum kerf fyrir þann skera. Skjalfestið á ykkar persónulegu vefsíður. <br>
+                <br> 
+                Nemendur mega vinna saman 3 í hóp.
               </p>
             </div>
           </div>
+
+          <!-- Horizontal line -->
+          <hr class="section-divider">
+
+          <!-- Verkefni 3 -->
+          <div class="other-tab-layout">
+            <!-- Left column -->
+            <div class="left-column">
+              <!-- Texti vinstra meginn -->
+              <h3>Verkefni 3</h3>
+              <!-- Horizontal line -->
+              <hr class="section-divider">
+
+              <p><strong>3D prentun og 3D skönnun</strong><br>
+                <br>
+                <em>Einstaklingsverkefni:</em><br>
+                <br>
+                Hannaðu módel fyrir 3D prentun sem ekki væri hægt að framkvæma með frádráttar framleiðslu 
+                (addative vs subtractive). Prentaðu hlutinn (max 100g af plasti skv. slicer).<br>
+                Prentararnir sem eru til í HÍ eru:<br>
+                <ul>
+                  <li>Prusa MK3+, Creality CR-10 MAX.</li>
+                </ul>
+                3D Skannaðu einhvern hlut, t.d. með photogrammetríu.<br>
+                Sýndu framvinduna á heimasíðunni þinni.<br>
+                <br>
+                <em>Hópaverkefni:</em><br>
+                <br>
+                Veljið 3D prentara og ákvarðið hönnunar reglur / þvinganir (t.d þörf á stuðning, 
+                veggþykkt, prentunar átt, yfirborðs gæði, innfylli...). <br>
+                Skráið á sameiginlegu vefsvæði.
+              </p>
+            </div>
+            <!-- Right column -->
+            <div class="right-column">
+              <!-- Myndir vinstra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="3Dprint.jpg" alt="Html">
+                </div>
+                <div class="image-container">
+                  <img src="3dprintTest.jpg" alt="Coding">
+                </div>
+                <!-- Add more images as needed -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal line -->
+          <hr class="section-divider">
 
         </div>
         <!-- Ferilssrká/Tímalínan -->
@@ -790,6 +1012,8 @@
 
             <!-- Horizontal line -->
             <hr class="section-divider">
+
+            <!-- Framhald vefsíðunnar -->
             <p>
               <h3>Framhalda vefsíðunnar</h3>
               Ég mun halda áfram að uppfæra og gera síðunna betri með hverju verkefni sem ég geri í áfanganum. 
@@ -810,63 +1034,1025 @@
         <div class="tab-pane fade show" id="project2" role="tabpanel">
           <div class="project-details">
             <div class="project-point">
-              <h3 class="challenge-heading">Verkefni 2</h3>
+              <h3 class="challenge-heading">Tölvustuddur skurður</h3>
               <div class="challenge-text">
-                <p>Hanna eitthvað mega sniðugt og svo sko skera það út! omg spennandi</p>
+                <p>Verkefni 2 snéri um að hanna og skera út 2 verkefni, fyrra verkefnið var að hann límmiða sem hægt er að 
+                  skera út með vínilskera og sá seinna var að hanna eitthvað sem hægt er að skera út með geislaskera. Ég var 
+                  það heppin að ég var nú þegar búinn að leika aðeins með geisla- og vínylskeran þegar ég var að vinna í 
+                  hönnunarkeppnini. Mér fannst það mega skemmtilegt svo að ég er mega spennt fyrir þessu verkefni.
+                </p>
               </div>
             </div>
             
             <!-- Horizontal line between Challenge and Solution -->
             <hr class="section-divider">
             
-            <!-- Tvískipti skjánum -->
+            <!-- Tvískipti skjánum - KERF -->
             <div class="project-layout">
               <!-- Texti vinstra meginn -->
               <div class="project-text">
-                <h3 class="solution-heading">Framkvæmd</h3>
-                <p>Ég er með margar sniðugar hugmyndir fyrir þetta! Veit að fólk getur ekki beðið eftir því 
-                  hvað Margrét Maren Guðmundsdóttir mun koma upp með!
+                <h3 class="solution-heading">Kerf próf</h3>
+                <p>
+                  Aðferðin til að mæla breidd "gats" sem myndast við skurð með geislaskera, er þekkt sem kerf próf. 
+                  Kerf próf er mikilvægur þáttur í undirbúningi fyrir skurð með geislaskera, sérstaklega þegar nákvæmni 
+                  er mikilvæg. <br>
+                  <br>
+                  Kerf prófið sem ég framkvæmdi með Hönnu Mae fundum við út úr því hversu mikið af plastplötunni geislaskeran 
+                  tók af plötunni með hverjum skurði. Þetta var gert með því að skera út 10 ferninga úr plastplötu 
+                  og mæla mismun í lengd þeirra og gati sem myndaðist í plastplötunni. Hver ferningur hjá okkur var 10x10mm. <br>
+                  <br>
+                  Gatið í plastplötunni mældi 10.02 cm, en ferningarnir sem voru skornir út mældu 9.89 cm. 
+                  Það voru 11 lóðréttar skurðarlinur sem geislaskeran gerði til skera út ferningana.
+                  Kerfið er því reiknað svona: <br>
+                  <br>
+                  (10.02cm - 9.89cm) / 11 = 0.0118 cm eða 0.118 mm.<br>
+                  <br>
+                  Að því loknu var hægt að nota þessa upplýsingar til að stilla teikningarnar á réttan hátt og 
+                  tryggja nákvæmni í skurði. Kerf próf er því mikilvægur skref í undirbúningi fyrir geislaskurð 
+                  til að uppfylla nákvæmni og gæðakröfur verkefnisins.
                 </p>
               </div>
               
               <!-- Myndir hægra meginn -->
               <div class="project-images">
                 <div class="image-container">
-                  <img src="CS.jpg" alt="Image 1">
+                  <img src="KERF.jpg" alt="Image 1">
+                </div>
+                <div class="image-container">
+                  <img src="KERFmæl.jpg" alt="Image 1">
                 </div>
               </div>
             </div>
 
+            <hr class="section-divider">
+
+            <!-- Parametrískur geislaskurður -->
+            <h3 class="solution-heading">Parametrískur geislaskurður</h3>
+            <p>
+              <h4>Uppsetning verkefnisins</h4>
+              Þegar ég var að velta því fyrir mér hvað ég gæti skorið út vildi ég hanna eitthvað sem ég gæti notað.
+              Ég leit í kringum mig heima hjá mér og sá að ég var með hræðilegt skipulag fyrir skartgripina mína. 
+              Þá var ég kominn með hugmynd! Ég ætla að hanna og skera út skartgripabox. <br>
+              <br>
+
+              Ég byrjaði á því að teikna upp hugmyndina mína af boxinu í ipadinn minn. Myndinar fyrir neðan
+              sína hvernig ég hugsaði þetta.
+            </p>
+
+            <div class="image-container">
+              <img src="HillanIPAD.jpg" alt="Image 1" style="width: 450px; height: 225px;">
+              <img src="BotnS.IPAD.jpg" alt="Image 1" style="width: 450px; height: 300px;">
+            </div>
+            <div class="image-container">
+              <img src="MiðjuS.IPAD.jpg" alt="Image 1" style="width: 450px; height: 225px;">
+              <img src="ToppS.IPAD.jpg" alt="Image 1" style="width: 450px; height: 300px;">
+            </div>
+
+            <p>
+            Eina sem vantaði núna var handfang. Ég tók einnig eftir því að ég var nú þegar búinn að nota 2 
+            mismunandi gerðir af festingum svo afh ekki að henda í þriðju festinguna og fá auka stig! Ég hannaði þá 
+            festingu fyrir handfangið sem var snap.
+            </p>
+            <div class="image-container">
+              <img src="HandfangIPAD.jpg" alt="Image 1" style="width: 500px; height: 250px;">
+              <img src="Fits.jpg" alt="Image 1" style="width: 350px; height: 225px;">
+            </div>
+
+            <p>
+              Festingarnar sem ég notaði eru því finger til að festa alla kassana saman, press-fit fyrir 
+              skiptingar í skúffunum og snap fyrir handföngin.
+            </p>
+            
+
+            <h4>Framkvæmd</h4>
+            <h5>Fusion 360</h5>
+            <strong>Parametrískt</strong> <br>
+            Til að teikna kassa með automatically sized finger-joints og gera alla hlutina parametríska horfi ég á 
+            <a href="https://www.youtube.com/watch?v=9U2JPfkQpsE&t=529s&ab_channel=HobbyistMaker" target="_blank">þetta</a>
+            Youtube myndband. Hér fyrir neðan eru parametríunar í mínu verkefni, fyrst fyrir hilluna, næst fyrir 
+            botn skúffuna svo kemur miðju skúffan og að lokum er parametrían fyrir topp skúffuna.<br>
+            <br>
+            <div class="image-container">
+              <img src="Hillan_par.png" alt="Image 1" class="spaced-image" style="width: 382px; height: 252px;">
+              <img src="Botn_par.png" alt="Image 1" class="spaced-image" style="width: 383px; height: 329px;">
+            </div>
+
+            <div class="image-container">
+              <img src="Miðja_par.png" alt="Image 1" class="spaced-image" style="width: 383px; height: 305px;">
+              <img src="Topp_par.png" alt="Image 1" class="spaced-image" style="width: 382px; height: 328px;">
+            </div>
+
+            <strong>Teikningar</strong> <br>
+            Eftir að skilgreina parametríuna byrjaði ég að að teikna. Ég gerði fimm teikningar. Fyrsta myndinn er af hillunni,
+            næst er botn skúffan, þar á eftir miðju skúffan, svo efsta skúffan og að lokum er handfangið.
+            
+            <div class="custom-image-container">
+              <img src="Hillan.png" alt="Image 1" style="width: 202.75px; height: 151.75px;">
+              <img src="Botn.png" alt="Image 2" style="width: 224.5px; height: 151px;">
+              <img src="Miðja.png" alt="Image 3" style="width: 235.75px; height: 136px;">
+              <img src="Topp.png" alt="Image 4" style="width: 229.75px; height: 142px;">
+              <img src="Handfang.png" alt="Image 5" style="width: 60px; height: 40px;">
+            </div>
+
+            Næst fylgdi ég byrjuninni af
+            <a href="https://www.youtube.com/watch?v=Tsp-bDq9ZbE&ab_channel=DCBSE21" target="_blank">þessu</a>
+            myndbandi til að leggja niður öllu body-inn á sama plan. Sem sagt ég lagði niður teikningarnar mínar svona:
+            <div class="custom-image-container">
+              <img src="Hillan_niður.png" alt="Image 1" style="width: 211.5px; height: 150px;">
+              <img src="Botn_niður.png" alt="Image 2" style="width: 242.5px; height: 145.75px;">
+              <img src="Miðja_niður.png" alt="Image 3" style="width: 227.5px; height: 150.25px;">
+              <img src="Topp_niður.png" alt="Image 4" style="width: 260.5px; height: 155.5px;">
+            </div>
+
+            <strong>Kerf og DXF file</strong> <br>
+            Ég þurfi svo að stilla inn kerf til að allar festingar væru sem bestar og allt myndi passa saman. Til 
+            að stilla inn kerf fylgdi ég 
+            <a href="https://www.youtube.com/watch?v=dKBxSx3Tv1k&t=843s&ab_channel=HobbyistMaker" target="_blank">þessu</a>
+            myndbandi.  Í þessu myndabandi sést líka hvernig ég vista teikninguna sem DXF file. 
+            Ég prufaði 6 mismunandi cutter.<br>
+            <br>
+            <div class="image-container">
+              <img src="Cutter_Kerf.png" alt="Image 1" class="spaced-image" style="width: 271.5px; height: 293px;">
+              <img src="Cutter_stilla_Kerf.png" alt="Image 1" class="spaced-image" style="width: 346.8px; height: 342px;">
+            </div>
+            <br>
+            Ég prufaði upprunnulega kerfið mitt sem var <strong>0.118</strong> mm, svo prufaði ég einnig
+            <ul class="custom-list">
+              <li>- 0.118+0.025=<strong>0.143</strong> mm</li>
+              <li>- 0.118+0.05=<strong>0.168</strong> mm</li>
+              <li>- 0.118+0.0625=<strong>0.1805</strong> mm</li>
+              <li>- 0.118+0.075=<strong>0.193</strong> mm</li>
+              <li>- 0.118+0.1=<strong>0.218</strong> mm</li>
+            </ul>
+
+            
+            <h5>Test</h5>
+            Fyrsta testið sem ég gerði var ekki með 0.143 mm kerfi, aðrir nemendur sem gerðu próf töluðu um að 
+            þeirra kerf hafi verið í kringum 0.17-0.18 svo var meira að prufa í kringum það.
+            Ég setti upp testin mín i Inkscape og merkti þau því ég þekki mig og ég myndi rugla öllu saman annars.
+            <div class="image-container">
+              <img src="Prufa.nr1.png" alt="Image 1">
+            </div>
+            Ég skar þessi test út og setti þau saman.<br>
+            <br>
+            <div class="custom-custom-image-container">
+              <img src="prufa1.jpg" alt="Image 1" class="spaced-image" style="width: 292.5px; height: 310.5px;">
+              <img src="prufa1.2.jpg" alt="Image 1" class="spaced-image" style="width: 546px; height: 112.5px;">
+            </div>
+            <br>
+            Út frá þessum testum sá ég strax að 0.118 var of lítið og 0.218 var allt of stór og kom því ekki einu 
+            sinni saman. 0.198 var of stór. Bestu testin voru 0.168 og 0.1805 en mér fannst press fit of þröngt í 
+            0.1805. Í þessum testum kom ég engan veginn handfanginu í gegnum gatið.<br>
+            <br>
+            Fyrir næsta test bætti ég við 0.143 kerfi til að sjá hvort að það myndi passa betur. Prufaði núna bara 
+            0.143 og 0.168 þar sem ég var nokkuð viss um að kerfið mitt væri 0.168 en vildi vera viss svo prufaði einnig 
+            "einni stærð" minna. Einnig stækkaði ég
+            handfangsgatið í 9mm til að sjá hvort ég kæmi handfanginu í gegn þá. Einnig vildi ég prufa "götin" sem 
+            eru á hillu teikningunni fyrst ég átti í svo erfitt með að koma handfangsgatinu í gegn. Ég breytti líka 
+            þykktinni á plötunum í teikningunum til að "hækka" götin svo að hægt sé að troða plötunum í götin sín. "Hækkaði"
+            um eitt kerf. 
+            <div class="image-container">
+              <img src="Prufa.nr2.png" alt="Image 1">
+            </div>
+            Testin komu út svona:<br>
+            <br>
+            <div class="custom-custom-image-container">
+              <img src="prufa2.jpg" alt="Image 1" class="spaced-image" style="width: 396px; height: 356px;">
+              <img src="prufa2.2.jpg" alt="Image 1" class="spaced-image"style="width: 389.2px; height: 260px;">
+            </div>
+            <br>
+            Bæði testin pössuðu vel saman en 0.168 var þrengra svo ég valdi að nota það svo að kassarnir mínir
+            myndu haldast betur saman.<br>
+            <br>
+            Þá var allt komið nema ég var ennþá í vandræðum með snap-fit handfangsgatið mitt. Ég var búinn að 
+            prufa 8mm gat og 9mm gat. Svo ég prufaði 9.5mm og 10mm gat.<br>
+            <br>
+            <div class="image-container">
+              <img src="prufa2.3.jpg" alt="Image 1" style="width: 344px; height: 367.7px;">
+            </div>
+            <br>
+            Ég kom ekki handafanginu í handfangsgatið fyrir 0.143 kerfið í 9mm holu. Ég braut handfangið 
+            fyrir 0.168 kerf í 9mm holu. Fyrir 9.5mm holu og 0.168 kerf brotnaði einnig handfangið en fyrir 0.168
+            kerf og 10 mm holu kom ég handfanginu í geng!<br>
+            <br>
+            Eftir öll þessi test var ég búinn að eyða næstum því heilli plötu í test.<br>
+            <br>
+            <div class="image-container">
+              <img src="Prufu_prent_Búið.jpg" alt="Image 1" class="spaced-image" style="width: 390px; height: 376.7px;">
+              <img src="prufuPrent.jpg" alt="Image 1" class="spaced-image" style="width: 282.5px; height: 376.7px;">
+            </div>
+            <br>
+            Ég skar út allt úr þessari plötu nema hringina tvo í neðra vinstra horninu.<br>
+            <br>
+
+            <h5>Inkscape</h5>
+            Ég næ í DXF file-ið og opna það í Inkscape. Fer í file -> import. Svo kemur upp gluggi passa
+            að velja Manual scale ýta á ok og svo velja Include SVG image as editable object(s) in the 
+            current file. Svo ungroup-a ég file-ið en group-a aftur saman hvert og einn lið í teikningunni. 
+            Eins og t.d botninn, allir liðir í botninum eru saman.<br>
+            <br>
+            <div class="custom-custom-mini-image-container">
+              <img src="ink_botn_ug2.png" alt="Image 1" class="spaced-image" style="width: 358.4px; height: 94.44px;">
+              <img src="ink_botn_Ug.png" alt="Image 1" class="spaced-image"style="width: 345.9px; height: 135.6px;">
+              <img src="Ink_bot_G.png" alt="Image 1" class="spaced-image"style="width: 346.8px; height: 130.2px;">
+            </div>
+            <br>
+            Ég geri þetta svo ég geti fært alla hluti og nýtt plássið sem best, hafði 500x500mm plötu til að leika með.<br>
+            <br>
+            <!-- Tvískipti skjánum --->
+            <div class="project-layout">
+              <!-- Texti vinstra meginn -->
+              <div class="project-text">
+                <p>
+                  Ég setti upp verkefnið í Inscape. En viti menn ég var með meira pláss á plötunni svo ég 
+                  bætti við hönnunar kassanum sem ég hannaði fyrir hönnunarkeppnina. Eina sem ég breytti
+                  var að ég minkaði hann úr 400x400mm í 100x100mm. Hér fyrir neðan er mynd að sæta hönnunarkassanum
+                  sem ég gerði fyrir keppnina
+                </p>
+                <div class="image-container">
+                  <img src="hönnunarkassi.jpg" alt="Image 1" style="width: 292.5px; height: 225.75px;">
+                </div>
+              </div>
+              
+              <!-- Myndir hægra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="verkefnið_bara.png" alt="Image 1">
+                </div>
+              </div>
+            </div>
+
+            <!-- hönnunarkassinn 2 -->
+            <div class="other-tab-layout">
+              <!-- Left column -->
+              <div class="left-column">
+                <!-- Myndir vinstra meginn -->
+                <div class="project-images">
+                  <div class="image-container">
+                    <img src="verkefnið_plusHönn.png" alt="project">
+                  </div>
+                </div>
+              </div>
+              <!-- Texti hægra meginn -->
+              <div class="right-column">
+                <p>
+                  Ég henti upp teikningu af kassanum og skellti inn kerf-inu sem ég fann fyrir skartgripaboxið. 
+                  Fylgdi öllum skrefum eins og ég gerði fyrir hin boxin. Ég náði svo í munstur af netinu
+                  <a href="https://www.freepik.com/premium-vector/pattern-silhouette-cut-gears-mechanical-machine-parts_43127657.htm" target="_blank">hér</a>
+                  sem ég notaði fyrir hliðarnar á kassanum. Í vínylskurð karflanum sem kemur á eftir er betur fraið út úr hvernig
+                  mynd er sótt af netinu og sett í Inkscape. Svo sótti í Vélinn og HÍ logo-in og setti inn í Inkscape. 
+                  Í þessu logo-um eru starfir eins og e og a, "kúlan" í þeim stöfum munu detta út ef ég geri ekki neitt í því. 
+                  <div class="image-container">
+                    <img src="Ink_A.png" alt="Image 1" style="width: 201.3px; height: 94.5px;">
+                    <img src="ink_A2.png" alt="Image 1" style="width: 197.6px; height: 75.8px;">
+                  </div>
+                  Ég byrja á því að teikna kassa þar yfir "kúluna" á stöfunum. Svo vel ég kassan, held shift inni og 
+                  ýti á kassan. Þegar þessir liðir eru valdir (í þessari röð) held ég inni ctrl og íti á mínus (-) þá 
+                  mun textin líta út eins og á myndinni lengst til hægri.
+                </p>
+              </div>
+            </div>
+            <!-- Tvískipti skjánum --->
+            <div class="project-layout">
+              <!-- Texti vinstra meginn -->
+              <div class="project-text">
+                <p>
+                  Eftir að að raða hönnunarkassanum vel í skjalið stillti sjá ég að ég væri með ennþá meira pláss.
+                  Svo ég fór að leika mér í Inkscape og bjó til lítið skilti sem stendur á nafnið mitt og forseti
+                  því ég er forseti nemendafélagsins. Það var ennþá pláss svo ég tók Hunger Games pin-ið og 
+                  Ballad of Songbirds and Snakes logo-ið (Hunger games prequel).<br>
+                  Einnig prentaði ég út 3 auka handföng þar sem ég braut nokkur þegar ég var að testa þau.
+                  <div class="image-container">
+                    <img src="HG.jpg" alt="Image 1" style="width: 200x; height: 200px;">
+                    <img src="BoSaS.jpg" alt="Image 1" style="width: 200x; height: 200px;">
+                  </div>
+                </p>
+              </div>
+              
+              <!-- Myndir hægra meginn -->
+              <div class="project-images">
+                <div class="image-container">
+                  <img src="Verkefnið_í_Ink.png" alt="Image 1">
+                </div>
+              </div>
+            </div>
+
+            <!-- Tvískipti skjánum --->
+            <div class="project-layout">
+              <!-- Texti vinstra meginn -->
+              <div class="project-text">
+                <p>
+                  <h4>Skera út verkefnið</h4> <br>
+                  Nú var allt tilbúið og ekkert eftir nema bara að henda í prentun/skera. <br>
+                  <br>
+                  Ég vissi að verkefnið myndi taka langan tíma, þetta er stór verkefni og eftir að prenta
+                  hönnunarkassan vissi ég að það tæki langan tíma að prenta út mynstrið. EN ég vissi ekki að 
+                  það myndi taka 1 tíma og 43 min að prenta. <br>
+                  <br>
+                  Sem betur fer laug geislaskerinn að mér og þetta 
+                  tók aðeins tæpar 50 mín.
+                </p>
+              </div>
+              
+              <!-- Myndir hægra meginn -->
+              <div class="project-images">
+                <div class="custom-custom-image-container">
+                  <img src="prent_tími.jpg" alt="Image 1" class="spaced-image" style="width: 300px; height: 400px;">
+                  <img src="prent_tími_búið.jpg" alt="Image 1" class="spaced-image" style="width: 300px; height: 400px;">
+                </div>
+              </div>
+            </div>
+
+            <h4>Setja saman</h4>
+            Það gekk mjög vel að púsla öllu saman en sumir liðir voru frekar þröngir og þurfi ég því að nota
+            gúmmí hamar til að þvingja áhveðnar festingar saman. Svona lítur þetta út þegar allt var sett saman.<br>
+            <br>
+            <div class="custom-custom-image-container">
+              <img src="box.jpg" alt="Image 1" style="width: 300px; height: 400px;">
+              <img src="mini_hönnunarkassi.jpg" alt="Image 1" style="width: 300px; height: 400px;">
+              <img src="annað.jpg" alt="Image 1" style="width: 300px; height: 400px;">
+            </div>
+            <br>
+            Kíkjum betur á skartgripaboxið, og hillurnar inn í boxinu<br>
+            <br>
+            <div class="custom-custom-image-container">
+              <img src="box_botn.jpg" alt="Image 1" style="width: 300px; height: 400px;">
+              <img src="box_miðja.jpg" alt="Image 1" style="width: 300px; height: 400px;">
+              <img src="box_topp.jpg" alt="Image 1" style="width: 300px; height: 400px;">
+            </div>
+            <br>
+            Svo lítur þetta mega vel út þegar ég set skartgripina mína í skartgripaboxið.<br>
+            <br>
+            <div class="custom-custom-image-container">
+              <img src="box_með_skart.jpg" alt="Image 1" style="width: 500px; height: 400px;">
+            </div>
+
+            <hr class="section-divider">
+
+            <h3 class="solution-heading">Vínylskurður</h3>
+            Það átti að skera út eitthvað skemmtilegt með vínylskera. Mig langaði að skera út einhvern límmiða
+            sem ég gæti t.d. sett á tölvuna mína. Ég googlaði skemmtilega sticker og svo endaði ég á því að velja 
+            mynd af Hogwards. <br>
+            <br>
+            Hér eru skerfinn til að taka mynd af google (eða annarstaðar) og setja upp rétt í Inkscape.
+            <ol>
+              <li>Copy-a myndina af google (eða annarstaðar)</li>
+              <li>Paste í Inkscape</li>
+              <li>Á meðan myndinn er valinn - Path > Trace Bitmap.. </li>
+              <li>Þaðan er hægt að breyta Threshold til að fá myndin sem skýrast</li>
+              <li>Ýta á apply, svo er hægt að hreyfa mynda á þann stað sem þú vilt hafa hana</li>
+              <li>Velja "nýju" myndina og í Fill and Stroke, stillum við Fill sem No paint, Stroke paint sem 
+                Flat colour og í Stroke style stillum við Width sem 0.02 mm
+              </li>
+            </ol>
+            Þá er myndinn rétt still og til í skurð. Hér fyrir neðan er mynd fyrir og eftir að ég stilli 
+            Fill and Stroke rétt. <br>
+            <br>
+            <div class="image-container">
+              <img src="VinylMynd.png" alt="Image 1" style="width: 450px; height: 225px;">
+              <img src="VinylMynd2.png" alt="Image 1" style="width: 450px; height: 225px;">
+            </div>
+
+            <br>
+            Eftir að ég valdi mína mynd var ennþá pláss fyrir meira á fletinum sem við máttum nota (100x50mm) 
+            svo ég skrifaði nafnið mitt líka. Til að hjálpa með að sjá hversu stórt svæði ég var að vinna með 
+            stillti ég "blaðið" í þeirri stærð sem við fengum. Það er gert með því að fara í File > Document 
+            Properties... > Display, þar getum við still Width og Height "blaðsins". <br>
+            <br>
+
+            Þá er næsta skref að senda þetta í skurð, færum yfir í tölvu sem er tengd vínylskeranum og skerum! 
+            <br><br>
+
+            <!-- Tvískipti skjánum -->
+            <div class="other-tab-layout">
+              <!-- Vinstri hlið -->
+              <div class="left-column">
+                <div class="project-images">
+                  <div class="centered-image-container">
+                    <img src="VinyPLOKK.jpg" alt="plokk" style="width: 292.5px; height: 297px;">
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Hægri hlið -->
+              <div class="right-column">
+                <p>
+                  <br><br><br>
+                  Eftir að límmiðinn minn kom úr skeranum tók ég eftir því hveru mikið að litlum vínyl ég þyrfti að
+                  plokka úr til að fá Hogwards kastalan minn til að koma vel út. Ég sat fyrir fram sjónvapið og plokkaði og 
+                  plokkaði og loksins kom þetta sjúklega vel út. 
+                </p>
+              </div>
+            </div>
+            <br>
+            Að lokum þurfi bara að setja málingateip yfir límmiðan til að geta fær límiðan þægilega yfir á 
+            t.d tölvuna mína.<br>
+            <br>
+            <div class="custom-custom-mini-image-container">
+              <img src="vin_hogwards.jpg" alt="plokk" class="spaced-image" style="width: 150px; height: 200px;">
+              <img src="vin_hogward_líma_á_tölvu.jpg" class="spaced-image"  alt="plokk" style="width: 150px; height: 200px;">
+              <img src="vin_hogwards_af.jpg" alt="plokk" class="spaced-image" style="width: 150px; height: 200px;">
+              <img src="vin_hogwards_á_tölvu.jpg" alt="plokk" class="spaced-image"  style="width: 150px; height: 200px;">
+              <img src="vin_magga.jpg" alt="plokk" style="width: 150px; height: 200px;">
+              <img src="vin_magga_líma_á_tölvu.jpg" alt="plokk" style="width: 150px; height: 200px;">
+              <img src="vin_magga_á_tölvu.jpg" alt="plokk" style="width: 150px; height: 200px;">
+            </div>
+            <br>
+            Þá er talfan mín orðinn sjúklega falleg. Það er hægt að sjá að ég er nú þegar með Vélin límiða 
+            en það er út af því við gerðum límiða fyrir hönnunarkeppnina sem límdust svo ekki á brautina 
+            og ég stalst til í að setja einn á tölvuna mína í staðinn fyrir að hann myndi enda í ruslinu.<br>
+            <br>
+            <div class="centered-image-container">
+              <img src="vin_á_tölvu.jpg" alt="plokk" style="width: 400px; height: 300px;">
+            </div>
+            
+
+
+            <hr class="section-divider">
+
+            <h3 class="solution-heading">Tímatafla</h3>
+            
+            <!-- Tímatafla -->
+            <table>
+              <thead>
+                <tr>
+                  <th colspan="3" class="section-header">KERF</th>
+                </tr>
+                <tr>
+                  <th>Verkþáttur</th>
+                  <th>Lýsing</th>
+                  <th>Tími</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Uppsetning Kerf</td>
+                  <td>Teikna í fusion og færa yfir í Incskape</td>
+                  <td>15 mín</td>
+                </tr>
+                <tr>
+                  <td>Geislaskurður Kerf</td>
+                  <td>Færa teikningu yfir í tölvu tengda við geislaskeran og skera út kerf prófið</td>
+                  <td>5 mín</td>
+                </tr>
+                <tr>
+                  <td>Reikna kerf</td>
+                  <td>Mæla skurð og reikna kerf</td>
+                  <td>10 mín</td>
+                </tr>
+                <!-- Sum row -->
+                <tr class="sum-row">
+                  <td colspan="2">Heildartími KERF</td>
+                  <td>30 mín</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th colspan="3" class="section-header">Parametrískur geislaskurður</th>
+                </tr>
+                <tr>
+                  <th>Verkþáttur</th>
+                  <th>Lýsing</th>
+                  <th>Tími</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Undirbúningur</td>
+                  <td>Skoða og áhveðja hvað ég vildi gera, teikna upp frumhugmynd í ipad</td>
+                  <td>1.5 klst</td>
+                </tr>
+                <tr>
+                  <td>Teikna í Fusion 360</td>
+                  <td>Setja upp parametrískar teikningar í fusion</td>
+                  <td>4 klst</td>
+                </tr>
+                <tr>
+                  <td>DXF file</td>
+                  <td>Setja inn mismunandi kerf og leggja niður öll body á sama plan í fusion</td>
+                  <td>1.5 klst</td>
+                </tr>
+                <tr>
+                  <td>Kerf prófanir</td>
+                  <td>Prufa mismunandi kerf við mismunandi festingar</td>
+                  <td>3 klst</td>
+                </tr>
+                <tr>
+                  <td>Inkscape</td>
+                  <td>Setja teikningarnar inn í Inkscape og raða þeim og sjá til þessa að þær passa</td>
+                  <td>1 klst</td>
+                </tr>
+                <tr>
+                  <td>Lítill hönnunarkassi</td>
+                  <td>Teikna upp hönnunarkassa og færa hann rétt yfir í Inkscape</td>
+                  <td>1 klst </td>
+                </tr>
+                <tr>
+                  <td>Auka teikningar</td>
+                  <td>Auka teikningar, settar upp í Inkscape</td>
+                  <td>45 mín</td>
+                </tr>
+                <tr>
+                  <td>Skera út</td>
+                  <td>Færa fyrir í tölvu sem er tengd við geislaskeran og skera út í geislaksera</td>
+                  <td>1 klst</td>
+                </tr>
+                <tr>
+                  <td>Setja saman</td>
+                  <td>Púsla öllum hlutunum saman</td>
+                  <td>45 mín</td>
+                </tr>
+                <!-- Sum row -->
+                <tr class="sum-row">
+                  <td colspan="2">Heildartími parametrísk geislaskurðar </td>
+                  <td>14 klst og 30 mín</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th colspan="3" class="section-header">Vínylskurður</th>
+                </tr>
+                <tr>
+                  <th>Verkþáttur</th>
+                  <th>Lýsing</th>
+                  <th>Tími</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Undirbúningur</td>
+                  <td>Finna út hvað ég vildi prenta út og setja það í Inkscape</td>
+                  <td>20 mín</td>
+                </tr>
+                <tr>
+                  <td>Skera út í vínylskera</td>
+                  <td>Færa í tölvu sem var tengd vínylskera og skera út</td>
+                  <td>10 mín</td>
+                </tr>
+                <tr>
+                  <td>Plokka</td>
+                  <td>Plokka út extra vínyl</td>
+                  <td>30 mín</td>
+                </tr>
+                <tr>
+                  <td>Líma</td>
+                  <td>Setja málingarteip og líma límiðana</td>
+                  <td>10 mín</td>
+                </tr>
+                <!-- Sum row -->
+                <tr class="sum-row">
+                  <td colspan="2">Heildartími vínylskurðar</td>
+                  <td>70 mín</td>
+                </tr>
+              </thead>
+              <thead>
+                <tr>
+                  <th colspan="3" class="section-header">Uppsetning á vefsíðu</th>
+                </tr>
+                <tr>
+                  <th>Verkþáttur</th>
+                  <th>Lýsing</th>
+                  <th>Tími</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Taka myndir</td>
+                  <td>Taka myndir til að setja á vefsíðuna</td>
+                  <td>20 mín</td>
+                </tr>
+                <tr>
+                  <td>Upplýsingavinna</td>
+                  <td>Skrifa um verkefnið og setja upp verkefni 2 flipan á vefsíðunni</td>
+                  <td>5 klst</td>
+                </tr>
+                <tr>
+                  <td>Uppfæra á Github</td>
+                  <td>Uppfæra breytingarnar á Github og skila verkefni</td>
+                  <td>10 mín</td>
+                </tr>
+                <!-- Sum row -->
+                <tr class="sum-row">
+                  <td colspan="2">Heildartími uppsetningu vefsíðu</td>
+                  <td>5 klst og 30 mín</td>
+                </tr>
+              </tbody>
+              <!-- "Sum" row for the entire table -->
+              <tfoot>
+                <tr class="total-row">
+                  <td colspan="2">Heildartími verkefnis 2</td>
+                  <td>21 klst og 40 mín</td> <!-- Adjust the total time as per your calculation -->
+                </tr>
+              </tfoot>
+            </table>
+            
+            <hr class="section-divider">
           </div>
         </div>
         <!-- Verkefni 3 -->
         <div class="tab-pane fade show" id="project3" role="tabpanel">
-          <h2 class="tab-headline">Verkefni 3</h2>
+          <h3 class="challenge-heading">3D prentun og 3D skönnun</h3>
+          <div class="challenge-text">
+            <p>
+              Í verkefni þrjú áttum við að hanna eitthvað sem er aðeins hægt að 3D prenta, ekki skera út. Einnig áttum
+              við að taka prófanir á hvað 3D prentarin getur gert, út frá verkefninu sem við hönnuðum. Að lokum áttum við 
+              3D skanna eitthvað skemmtilegt. Mér dakk í hug að tengja saman verkefnin og hanna annað hvort skartgripi 
+              eða bíl/róbot sem passar inn í hönnunarkassan.
+            </p>
+          </div>
           <hr class="section-divider">
           <!-- Tvískipti skjánum -->
           <div class="other-tab-layout">
             <!-- Vinstri hlið -->
             <div class="left-column">
               <p>
-                Omg um hvað mun verkefnið snúast??
+                <h4 class="solution-heading">3D prentun</h4>
+                <h5>Hönnun bíls</h5>
+                Ég var svo ánægð með hvað litli hönnunarkassinn kom vel út að mig langaði að byggja á því og 
+                prenta út ein sætan bíl. Ég fékk lánaða hönnun á bílnum 
+                <a href="https://all3dp.com/2/fusion-360-modeling-design-tutorial/" target="_blank">hér</a>. 
+                <br><br>
+                Ég fylgdi leiðbeiningunum á síðunum eiginlega alveg nema ég minkaði allar stærðir um helming
+                svo skemmti ég mér aðeins með smáatriðin.
+                
+              </p>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <div class="image-container">
+                <img src="Bíll.png" alt="Image 1">
+              </div>
+            </div>
+          </div>
+
+          <h5>Setja upp í Prusa Slicer</h5>
+          Fyrst save-a ég file sem 3mf file. Ég geri það í fusion 360 með því að fara í file -> Export -> Type: 
+          3MF File (*.3mf). <br>
+          <br>
+
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <p>
+                Síðan opnaði ég file-ið í Prusa Slicer. Hér til hægri sést hvernig bílinn kemur þegar 
+                ég opna 3MF file-ið af bílum.<br>
+                <br>
+                Svo er valin hlið sem er botn, þar að segja það sem 3D prentarinn byrjar að prenta. 
+              </p>
+              <div class="custom-custom-mini-image-container">
+                <img src="Bíll_POF1.png" alt="plokk" class="spaced-image" style="width: 224px; height: 107.6px;">
+                <img src="Bíll_POF2.png" class="spaced-image"  alt="plokk" style="width: 185.6px; height: 106.4px;">
+              </div>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <div class="image-container">
+                <img src="Bíll_3DPrent.png" alt="Image 1">
+              </div>
+            </div>
+          </div>
+
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <p>
+                <br>
+                Ég tók strax eftir því að það var overhang á bílnum sem myndi ekki prentast vel út án einhverja
+                hjálpar. Á vinstri hönd er málingarbursti, vel hann til og teikna svo inn á bílinn hvar ég vil hafa
+                support.<br>
+                <br>
+                Á myndinni hér til hægri sést hvar ég teiknaði support á bílinn.
+              </p>
+            </div>
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <div class="image-container">
+                <img src="Bíll_lita.png" alt="Image 1">
+              </div>
+            </div>
+          </div>
+
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <div class="image-container">
+                <img src="3dPrent.png" alt="Image 1">
+              </div>
+              <p>
+                <br>
+                Fylgdi sömu skrefum og fyrir bílinn til að setja testið upp í Prusa slicer.
+                <br>
+                <br>
+                Næst passa ég að stillingarnar eru rétta. Í print settings vel ég 0.1mm DETAIL (modifief). Fyrir 
+                filament valdi ég að prenta efni sem er PLA svo vel Prusament PLA í filament dálkinum. Svo valdi ég 
+                ekkert support og infill 15%.
               </p>
             </div>
 
             <!-- Hægri hlið -->
             <div class="right-column">
               <p>
-                Get ekki beðið eftir því!
+                <br>
+                <h5>Test</h5>
+                
+                Ég vildi vera viss um að allt í bílnum myndi prentast vel út svo áður en ég prentaði út bílinn
+                hannaði ég test. Þar sem allir hlutir sem ég var hrædd um að myndu koma illa út, voru settir saman 
+                á einn lítin flöt og prentaðir út. Teiknaði testið upp í fusion og leit svona út.
+              </p>
+              <div class="image-container">
+                <img src="3dPrent_test.png" alt="Image 1">
+              </div>
+            </div>
+          </div>
+          <p>
+            <br>
+            Hér fyrir neðan er hægt að sjá hvernig þetta lítur út þegar ég er búinn að stilla stillingarnar rétt 
+            og ýta á slice now
+          </p>
+
+          <div class="image-container">
+            <img src="3dPrent_test_prent.png" alt="Image 1">
+          </div>
+          <p>
+            <br>
+            Að prenta testið tók 1 klst og 33 mín. Í prusa slicer forritnu er hægt að hreyfa ásinn sem er lóðréttur
+            og þá er hægt að sjá hvernig testið mun prentast út.
+          </p>
+
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <div class="image-container">
+                <img src="Test_prentað.jpg" alt="Image 1">
+              </div>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <p>
+                <br>
+                Svona kom testið út.<br>
+                <br>
+                Yfir höfðuð fannst mér þetta koma vel út. En overhang á öllum hlutum var aldrei
+                fullkomið. En fannst þetta koma nógu vel út svo það er engu eftir að bíða en að henda 
+                bílnum sjálfum í prentun.
               </p>
             </div>
           </div>
-<!--  -->
 
-          <hr class="section-divider">
-          <div class="project-images">
-            <div class="image-container">
-              <img src="E.jpg" alt="Spenningur">
+          <p>
+            <br>
+            Núna stilli ég allt eins og áðan nema núna stilli ég supports sem for support enforcers only, þar að segja 
+            prentum support-ið sem ég teiknaði inn á myndina áðan. Einnig bætti ég við brim sem eru einhverskonar 
+            "útlínur". Hægt að sjá útlínurnar á myndinni hér fyrir neðan, þær eru blá-grænar.
+          </p>
+
+          <div class="image-container">
+            <img src="Bíll_prentun.png" alt="Image 1">
+          </div>
+          <p>
+            <br>
+            Eins og hægt er að sjá á myndinni tók það 3 klst og 47 mín að prenta bílinn og ég notaði 
+            20.31 g af PLA plasti.
+          </p>
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <p>
+                <br>
+                Svona kom bíllinn úr prentun. <br>
+                <br>
+                Mér finnst hann mega flottur. Eina sem ég get sett út á hann er overhang-ið hjá gluggunum. En 
+                það er hægt að pússa það niður og gera það aðeins fallegra.
+              </p>
+              <div class="image-container">
+                <img src="Bíll_passar_í_hönnunarkassa.jpg" alt="Image 1">
+              </div>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <div class="image-container">
+                <img src="Bíll_prentaður.jpg" alt="Image 1">
+              </div>
+              <p>
+                <br>
+                <br>
+                Bíllinn kemst undir hönnunarkassan sem ég gerði í verkefni 2 
+                svo að hann má keppa í mini hönnunarkeppni HÍ. 
+                Eina sem ég á þá eftir að hanna er mini hönnunarbraut og þá get ég haldið mína eiginn 
+                hönnunarkeppni.
+              </p>
             </div>
           </div>
+
+          <hr class="section-divider">
+          <h4 class="solution-heading">3D skönnun</h4>
+          <p>
+            Ég byrjaði á því að finna app sem er auðvelt að nota ég fann 
+            <a href="https://www.qlone.pro/" target="_blank">þetta</a> 
+            app. Það var mjög auðvelt að nota og leiðbeningarnar voru góðar. Mér fannst þetta svo áhugavert að
+            ég skannaði inn nokkra hluti.
+          </p>
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <h5 class="solution-heading">Kanna</h5>
+              <p>
+                Fyrst prufaði ég að skanna inn mjólkur könnu.
+              </p>
+              <div class="custom-image-container">
+                <img src="Kanna.jpg" alt="Kanna" style="width: 200px; height: 219px;">
+                <img src="Kanna_gif.gif" alt="Kanna" style="width: 320px; height: 180px;">
+              </div>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <h5 class="solution-heading">Stytta</h5>
+              <p>
+                Næst fann ég sæta styttu heima hjá mér og prufaði að skanna hana.
+              </p>
+              <div class="custom-image-container">
+                <img src="stitta.jpg" alt="Kanna" style="width: 200px; height: 250px;">
+                <img src="stitta_gif.gif" alt="Kanna" style="width: 320px; height: 180px;">
+              </div>
+            </div>
+          </div>
+
+          <!-- Tvískipti skjánum -->
+          <div class="other-tab-layout">
+            <!-- Vinstri hlið -->
+            <div class="left-column">
+              <h5 class="solution-heading">Lítið box</h5>
+              <p>
+                Þar á eftir fann ég lítið box sem ég skannaði.
+              </p>
+              <div class="custom-image-container">
+                <img src="Box_skönnun.jpg" alt="Kanna" style="width: 230px; height: 219px;">
+                <img src="box_skönnun_gif.gif" alt="Kanna" style="width: 320px; height: 180px;">
+              </div>
+            </div>
+
+            <!-- Hægri hlið -->
+            <div class="right-column">
+              <h5 class="solution-heading">Hendi</h5>
+              <p>
+                Og að lokum skannaði ég inn hendina á mér bara til að sjá hvort það væri hægt.
+              </p>
+              <div class="custom-image-container">
+                <img src="hendi.jpg" alt="Kanna" style="width: 206px; height: 219px;">
+                <img src="hendi_gif.gif" alt="Kanna" style="width: 320px; height: 180px;">
+              </div>
+            </div>
+          </div>
+
+
+          <hr class="section-divider">
+
+          <h3 class="solution-heading">Tímatafla</h3>
+          <!-- Tímatafla -->
+          <table>
+            <thead>
+              <tr>
+                <th colspan="3" class="section-header">3D prentun</th>
+              </tr>
+              <tr>
+                <th>Verkþáttur</th>
+                <th>Lýsing</th>
+                <th>Tími</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hönnun bíls</td>
+                <td>Teikna í fusion </td>
+                <td>1 klst</td>
+              </tr>
+              <tr>
+                <td>Prusa Slicer</td>
+                <td>Færa teikningu yfir í prusa slicer og stilla allt rétt</td>
+                <td>20 min</td>
+              </tr>
+              <tr>
+                <td>3D prenta</td>
+                <td>Hvað prentun tók langan tíma</td>
+                <td>3 klst og 50 mín</td>
+              </tr>
+              <!-- Sum row -->
+              <tr class="sum-row">
+                <td colspan="2">Heildartími 3D prentunar</td>
+                <td>5 klst og 10 mín</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="3" class="section-header">3D prentun test</th>
+              </tr>
+              <tr>
+                <th>Verkþáttur</th>
+                <th>Lýsing</th>
+                <th>Tími</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hönnun</td>
+                <td>Hanna test út frá því sem ég var hrædd um að myndi vera erfitt að prenta út</td>
+                <td>1 klst</td>
+              </tr>
+              <tr>
+                <td>Prusa Slicer</td>
+                <td>Færa teikningu yfir í prusa slicer og stilla allt rétt</td>
+                <td>20 min</td>
+              </tr>
+              <tr>
+                <td>3D prentun</td>
+                <td>Prenta test</td>
+                <td>1 klst og 30 mín</td>
+              </tr>
+              <!-- Sum row -->
+              <tr class="sum-row">
+                <td colspan="2">Heildartími test</td>
+                <td>2 klst og 50 mín</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th colspan="3" class="section-header">3D skönnun</th>
+              </tr>
+              <tr>
+                <th>Verkþáttur</th>
+                <th>Lýsing</th>
+                <th>Tími</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>App</td>
+                <td>Finna app og læra á það</td>
+                <td>30 mín</td>
+              </tr>
+              <tr>
+                <td>3D skönnun</td>
+                <td>Leika mér að 3D skanna með appinu</td>
+                <td>2 klst</td>
+              </tr>
+              <!-- Sum row -->
+              <tr class="sum-row">
+                <td colspan="2">Heildartími 3D skönnun</td>
+                <td>2 klst og 30 mín</td>
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th colspan="3" class="section-header">Uppsetning á vefsíðu</th>
+              </tr>
+              <tr>
+                <th>Verkþáttur</th>
+                <th>Lýsing</th>
+                <th>Tími</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Taka myndir</td>
+                <td>Taka myndir til að setja á vefsíðuna</td>
+                <td>20 mín</td>
+              </tr>
+              <tr>
+                <td>Upplýsingavinna</td>
+                <td>Skrifa um verkefnið og setja upp verkefni 3 flipan á vefsíðunni</td>
+                <td>3 klst</td>
+              </tr>
+              <tr>
+                <td>Uppfæra á Github</td>
+                <td>Uppfæra breytingarnar á Github og skila verkefni</td>
+                <td>10 mín</td>
+              </tr>
+              <!-- Sum row -->
+              <tr class="sum-row">
+                <td colspan="2">Heildartími uppsetningu vefsíðu</td>
+                <td>3 klst og 30 mín</td>
+              </tr>
+            </tbody>
+            <!-- "Sum" row for the entire table -->
+            <tfoot>
+              <tr class="total-row">
+                <td colspan="2">Heildartími verkefnis 2</td>
+                <td>14 klst</td> 
+              </tr>
+            </tfoot>
+          </table>
+
+          <hr class="section-divider">
 
         </div>
        <!-- Lokaverkefni -->
@@ -894,7 +2080,7 @@
     <footer>
       <div class="container text-center">
         <p class="small">
-          <a href="https://www.facebook.com/margretmaren/" target="_blank">Margrét</a> gert með 🖤 og <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+          <a href="https://www.facebook.com/margretmaren/" target="_blank">Margrét</a> gerði með 🖤 og <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
         </p>
       </div>
     </footer>
